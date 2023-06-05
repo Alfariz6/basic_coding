@@ -13,7 +13,7 @@ font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .header {
-    background:url(hewan/zoo.jpg);
+    background:url(../hewan/zoo.jpg);
     background-size: cover;
     background-position: center;
     color: rgba(255, 255, 255, 0);
@@ -38,4 +38,19 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     font-family: 'Archivo Black', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 80px;
+}
+
+.sumber {
+background: rgba(209, 125, 0, 0.781);
+display: flex;
+justify-content: center;
+align-content: center;
+text-align: center;
+}
+
+.sumber li {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
