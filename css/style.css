@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    padding: 0;
-    margin: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-font-family: 'Plus Jakarta Sans', sans-serif;
 
 #all {
-    background: rgb(184, 116, 39)
+    background: rgb(226, 212, 195)
 }
 
 .header {
-    background:url(../hewan/zoo.jpg);
+    background: url(../xyz-zoo/hewan/zoo.jpg);
     background-size: cover;
     background-position: center;
-    color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255,);
     display: grid;
-    place-content: center;
+    place-content: center; 
     text-align: center;
     min-height: 400px;
     position: relative;
@@ -30,14 +32,25 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     position: absolute;
     z-index: -1;
     inset: 0;
-    background: rgba(209, 125, 0, 0.781);
-    opacity: .5;
+    background: rgb(48, 29, 5);
+    opacity: .85;
 }
 
-.header h1 {
+.zoo
+
+.header, .kuning, .putih, h1 {
     font-family: 'Archivo Black', sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 80px;
+    font-size: 100px;
+}
+
+.kuning {
+    color: gold;
+    font-size: 100px;
+}
+
+.putih {
+    color: white;
+    font-size: 100px;
 }
 
 .konten h2 {
@@ -52,17 +65,37 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 20px;
 }
 
+.familia ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.familia ul li:first-child {
+    margin-right: 50px;
+}
+
 .sumber {
 background: rgba(209, 125, 0, 0.781);
-display: flex;
+/* display: flex; */
 justify-content: center;
 align-content: center;
 text-align: center;
 }
 
-.sumber li {
+/* .sumber li {
     display: inline-block;
     justify-content: center;
     align-content: center;
     text-align: center;
+} */
+
+.sumber ol {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.sumber ol li:first-child {
+    margin-right: 10px;
 }
