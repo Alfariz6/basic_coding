@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+#all {
+    background: rgb(226, 212, 195)
+}
+
+.header {
+    background: url(../xyz-zoo/hewan/zoo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255,);
+    display: grid;
+    place-content: center; 
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+    isolation: isolate;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgb(48, 29, 5);
+    opacity: .85;
+}
+
+.konten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, .kuning, .putih, h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
+}
+
+.konten ul {
+    list-style: none;
+}
+
+.kuning {
+    color: gold;
+    font-size: 100px;
+}
+
+.putih {
+    color: white;
+    font-size: 100px;
+}
+
+.konten h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 30px;
+}
+
+.jenis h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.familia ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-content: center;
+}
+
+.familia ul li:first-child {
+    margin-bottom: 100px;
+    margin-right: 50px;
+    align-content: center;
+}
+
+.familia li h2 {
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.jenis li h3 {
+    margin-top: 30px;
+    margin-bottom: 8px;
+    align-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.familia ul {
+    background: white;
+    display: flex;
+    margin-top: 30px;
+    width: 1100px;
+    height: 400px;
+}
+
+.sumber {
+background: rgba(209, 125, 0, 0.781);
+/* display: flex; */
+justify-content: center;
+align-content: center;
+text-align: center;
+}
+
+/* .sumber li {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+} */
+
+.sumber ol {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.sumber ol li:first-child {
+    margin-right: 10px;
+}
