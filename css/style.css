@@ -134,3 +134,21 @@ text-align: center;
 .sumber ol li:first-child {
     margin-right: 10px;
 }
+
+
+=================================================================
+
+TABLE AND FORM
+
+#taf {
+    background: #ffff99;
+}
+
+table, th, td {
+    border: solid 1px black;
+}
+
+.tabel tr:hover {
+    background-color: #ffff99;
+    color: purple;
+}
