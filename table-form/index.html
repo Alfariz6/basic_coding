@@ -5,105 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Form</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css taf/style.css">
     <style>
 
     </style>
 </head>
 <body id="taf">
     <div class="container">
-        <div class="head">
-            <h1 style="text-align: center;">Table and Form</h1><br>
-        </div>
-        <div class="headtwo">
-            <h2>対戦結果</h2>
-            <h3>第73回JABA九州大会</h3>
-            <p>2021年5月9日(日) 9:00</p>
-            <p>試合会場：オーヴィジョンスタジアム下関</p>
-        </div>
-        <div class="table">
-            <table style="width:100%; text-align: center">
-                <tr>
-                <th>チーム名</th>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>4</th>
-                <th>5</th>
-                <th>6</th>
-                <th>7</th>
-                <th>8</th>
-                <th>9</th>
-                <th>計</th>
-                </tr>
-                <tr>
-                <td>パナソニック</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>1</td>
-                <td>0</td>
-                <td>3</td>
-                <td>0</td>
-                <td>3</td>
-                <td>7</td>
-                </tr>
-                <tr>
-                <td>Honda熊本</td>
-                <td>0</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>1</td>
-                </tr>
-            </table><br>
         
-            <table style="width:100%; text-align: center">
-                <tr>
-                <th rowspan="2">バッテリー</th>
-                <th>Honda熊本</th>
-                <th>パナソニック</th>
-                </tr>
-                <tr>
-                <td>投手：島袋、福田、横川、内田、高山、中津 <br> 捕手：竹葉</td>
-                <td>投手：榎本 <br> 捕手：川上</td>
-                </tr>
-            </table><br>
-        </div>
-        
+        <div class="semuatabel">
+
+            <div class="head">
+                <h1 style="text-align: center;">Table and Form</h1><br>
+                <h2>対戦結果</h2>
+                <h3>第73回JABA九州大会</h3>
+                <p>2021年5月9日(日) 9:00</p>
+                <p>試合会場：オーヴィジョンスタジアム下関</p>
+            </div>
     
+            <div class="tableone">
+                <table style="width:100%; text-align: center">
+                    <div>
+                        <tr>
+                            <th>チーム名</th>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th>7</th>
+                            <th>8</th>
+                            <th>9</th>
+                            <th>計</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>パナソニック</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>7</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>Honda熊本</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+                    </div>
+                </table><br>
+            </div>
+    
+            <div class="tabeltwo">
+                <table style="width:100%; text-align: center">
+                    <div>
+                        <tr>
+                            <th rowspan="2">バッテリー</th>
+                            <th>Honda熊本</th>
+                            <th>パナソニック</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>投手：島袋、福田、横川、内田、高山、中津 <br> 捕手：竹葉</td>
+                            <td>投手：榎本 <br> 捕手：川上</td>
+                        </tr>
+                    </div>
+                </table><br>
+            </div>
+        </div>
+
+
+
         <h2>お問い合わせ</h2>
-        <form>
-            <label for="name">お名前 [必須]</label>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">メールアドレス [必須]</label>
-            <input type="email" id="email" name="email"><br>
-            <label for="number">電話番号 [任意]</label>
-            <input type="text" id="number" name="number"><br>
-            <label for="option">ご用件 [必須]</label>
-                <select name="option" id="option">
-                    <option value="" disabled selected>選択してください</option>
-                    <option value="書籍についてのご質問(個人のお客様)">書籍についてのご質問(個人のお客様)</option>
-                    <option value="書籍についてのご質問(取次・書店様)">書籍についてのご質問(取次・書店様)</option>
-                    <option value="書籍についてのご質問(メディア関係者様)">書籍についてのご質問(メディア関係者様)</option>
-                    <option value="アルバイト・パートに関するお問い合わせ">アルバイト・パートに関するお問い合わせ</option>
-                    <option value="仕事のご依頼・お問い合わせ">仕事のご依頼・お問い合わせ</option>
-                    <option value="外部スタッフのご希望(フリーの方、制作会社様)">外部スタッフのご希望(フリーの方、制作会社様)</option>
-                    <option value="その他のお問合せ">その他のお問合せ</option>
-                </select>
-                <br>
-            <label for="enquiry">お問い合わせ内容 [必須]</label><br>
-            <textarea name="enquiry" id="enquiry" cols="50" rows="10"></textarea>
-            <br>
-            <button type="button">確認</button>
-        </form>
+            <form>
+                <div>
+                    <label for="name">お名前 [必須]</label>
+                    <input type="text" id="name" name="name"><br>
+                </div>
+                <div>
+                    <label for="email">メールアドレス [必須]</label>
+                    <input type="email" id="email" name="email"><br>
+                </div>
+                <div>
+                    <label for="number">電話番号 [任意]</label>
+                    <input type="text" id="number" name="number"><br>
+                </div>
+                <div>
+                    <label for="option">ご用件 [必須]</label>
+                    <select name="option" id="option">
+                        <option value="" disabled selected>選択してください</option>
+                        <option value="書籍についてのご質問(個人のお客様)">書籍についてのご質問(個人のお客様)</option>
+                        <option value="書籍についてのご質問(取次・書店様)">書籍についてのご質問(取次・書店様)</option>
+                        <option value="書籍についてのご質問(メディア関係者様)">書籍についてのご質問(メディア関係者様)</option>
+                        <option value="アルバイト・パートに関するお問い合わせ">アルバイト・パートに関するお問い合わせ</option>
+                        <option value="仕事のご依頼・お問い合わせ">仕事のご依頼・お問い合わせ</option>
+                        <option value="外部スタッフのご希望(フリーの方、制作会社様)">外部スタッフのご希望(フリーの方、制作会社様)</option>
+                        <option value="その他のお問合せ">その他のお問合せ</option>
+                    </select>
+                </div>
+                <div>
+                    <br>
+                    <label for="enquiry">お問い合わせ内容 [必須]</label><br>
+                    <textarea name="enquiry" id="enquiry" cols="50" rows="10"></textarea>
+                    <br>
+                </div>
+                <button type="button">確認</button>
+            </form>
+        </div>
     </div>
-   
 </body>
 </html>
